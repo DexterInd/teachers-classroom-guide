@@ -19,7 +19,7 @@ export USER HOME
 case "$1" in
  start)
   echo "Starting VNC Proxy..."
-  screen -S noVNC -dms noVNC /usr/local/share/noVNC/utils/launch.sh --vnc localhost:5901 --listen 80
+  screen -S noVNC -dms noVNC /usr/local/share/noVNC/utils/launch.sh --vnc localhost:5901 --listen 8001
   echo "...done (VNC Proxy)"
   ;;
 
